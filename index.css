@@ -1,0 +1,108 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.bg{
+  background-image: url('/bg.jpg');
+  width: auto;
+  height: auto;
+}
+.navbar{
+  background-color:red;
+  font-size: 13px;
+  box-shadow: 0px 4px 4px 0px rgba(255,255,255,0.09);
+  display: flex;
+  padding: 5px;
+  width: auto;
+  border-bottom: 2px solid white;
+}
+.navbar img {
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+.home{
+  background-color: yellow;
+  border-radius: 15px;
+  color:;
+}
+.text{
+  padding: 10px;
+  color:white;
+}
+.join{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 13px;
+}
+.join ul {
+  display: flex;
+  margin: 8px;
+}
+.join ul li {
+  color: white;
+}
+.join ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: 100;
+}
+.text center {
+  color: white;
+  text-shadow: 0px 4px 4px rgba(255,255,255,0.509);
+}
+.tema{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.temacerita{
+  background-color: yellow;
+  color: black;
+}
+.tema p {
+  margin-top: 10px;
+}
+.tema p small a {
+  padding: 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid yellow;
+  border-radius: 15px;
+}
+span{
+  color: yellow;
+}
+.garis{
+  margin: 15px;
+  border: none;
+  width:auto;
+  height: 0.5px;
+  background-color: white;
+}
+.judul{
+  margin: 20px;
+  padding: 20px;
+}
+.judul h1 {
+  color: white;
+}
+.cerita{
+  background-color:rgba(179,179,179,0.725);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
